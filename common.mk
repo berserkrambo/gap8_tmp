@@ -298,7 +298,7 @@ endif
 ifeq ($(MODEL_ID), 99)
         MODEL_PREFIX?=model
         AT_INPUT_WIDTH?=320
-        AT_INPUT_HEIGHT?=320
+        AT_INPUT_HEIGHT?=256
         AT_INPUT_COLORS?=3
         NNTOOL_SCRIPT?=models/nntool_scripts/nntool_script
 endif
